@@ -11,6 +11,6 @@ steps:
   - name: 'gcr.io/cloud-builders/kubectl'
     args: ['apply', '-f', 'deployment_hellow_world_application.yaml', '--validate=false']
     env:
-    - 'CLOUDSDK_COMPUTE_ZONE=us-central'
+    - 'CLOUDSDK_COMPUTE_ZONE=us-central1'
     - 'CLOUDSDK_CONTAINER_CLUSTER=autopilot-cluster-1'
 images: ['gcr.io/$PROJECT_ID/hello-world-app:$COMMIT_SHA']
