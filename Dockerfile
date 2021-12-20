@@ -10,4 +10,4 @@ COPY ${JAR_FILE} hello-world-application.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "/hello-world-application.jar]
+ENTRYPOINT ["java", "-jar", "/hello-world-application.jar"]
