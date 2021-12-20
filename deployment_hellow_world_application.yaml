@@ -43,7 +43,7 @@ metadata:
   name: hello-world-application
   namespace: default
   annotations:
-    cloud.google.com/load-balancer-type: "Internal"
+    cloud.google.com/load-balancer-type: "External"
   labels:
     app: hello-world-application
   name: hello-world-application
